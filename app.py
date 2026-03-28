@@ -46,7 +46,7 @@ Links (some might be relative links):
 
 def select_relevant_links(url):
     response = groq.chat.completions.create(
-       model="llama-3.1-8b-instant",  # or other Groq-supported models
+       model="groq/compound-mini",  # or other Groq-supported models
        messages=[
           {"role": "system", "content": link_system_prompt},
           {"role":"user","content":get_links_user_prompt(url)}
@@ -85,7 +85,7 @@ use this content to creta a brochure of the company in markdown without code blo
 
 def create_brochure(company_name,url):
     response = groq.chat.completions.create(
-    model="llama-3.1-8b-instant",
+    model="groq/compound-mini",
     messages=[
         {"role": "system", "content": brochure_system_prompt},
         {"role":"user","content":get_brochure_user_prompt(company_name,url)}

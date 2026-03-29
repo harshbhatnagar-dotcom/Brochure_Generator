@@ -24,4 +24,6 @@ An AI-powered web application that generates beautiful and structured brochures 
 
 ---
 
-## Live link : https://huggingface.co/spaces/harshbhatnagar-123/AI-BROCHURE-GENERATOR
+## Live link : 
+
+👉 [AI brochure generator](https://huggingface.co/spaces/harshbhatnagar-123/AI-BROCHURE-GENERATOR)
